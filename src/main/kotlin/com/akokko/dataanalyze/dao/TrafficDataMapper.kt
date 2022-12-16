@@ -1,4 +1,8 @@
 package com.akokko.dataanalyze.dao
 
-interface TrafficDataMapper {
-}
+import com.akokko.dataanalyze.pojo.Traffic
+import org.springframework.stereotype.Repository
+import tk.mybatis.mapper.common.Mapper
+
+@Repository
+interface TrafficDataMapper: Mapper<Traffic>

@@ -1,4 +1,4 @@
-package com.akokko.demo4.filter;
+package com.akokko.dataanalyze.filter;
 
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
